@@ -1,5 +1,38 @@
 .App {
   text-align: center;
+  display: flex;
+}
+.Option{
+  width: 200px;
+  background: #eee;
+  border-right: 2px solid #000;
+  height: 100vh;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.Height {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: block;
+}
+.Apply {
+  background: #d68282;
+  width: 100px;
+  text-align: center;
+  margin-top: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.Draw {
+  display: inherit;
+}
+.wrapImage {
+  display: none;
 }
 
 .App-logo {
